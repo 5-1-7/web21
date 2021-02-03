@@ -1,6 +1,7 @@
 .idea
 *.iml
-.gitignore
+.gradle
+.DS_Store
 # Default ignored files
 /shelf/
 /workspace.xml
