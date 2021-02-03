@@ -12,14 +12,14 @@
             li{
                 float: left; /**/
                 margin-right: 8px;/*外右侧空白空开*/
-                background-color: #ee6515;
+                background-color: #5baa33;
                 padding: 5px 10px 5px 10px;/*内部四周留白，上右下左的顺序*/
                 color: white;
                 border-radius: 5px;
             }
-            /*鼠标移入*/
+            /*鼠标移入触发修改，移除后还原*/
             li:hover{
-                background-color: #ff9f03
+                background-color: #3d7624
             }
             a{
                 text-decoration: none;/*取消超链接下划线*/
@@ -28,11 +28,13 @@
         </style>
 	</head>
 	<body>
-        <h3>ul、li样式修饰来实现</h3>
+        <h3>使用ul标签和li标签实现菜单主体，通过CSS3修饰菜单样式</h3>
         <ul>
-            <li><a href="https://www.w3school.com.cn" target="_blank"></a>W3cshool</li>
-            <li><a href="https://www.runoob.com" target="_blank"></a>菜鸟教程</li>
-            <li><a href="https://segmentfault.com" target="_blank"></a>思否</li>
+            <li><a href="https://github.com/" target="_blank">GitHub</a></li>
+            <li><a href="https://www.w3schools.com/" target="_blank">W3cshool英文站</a></li>
+            <li><a href="https://www.w3school.com.cn" target="_blank">W3cshool中文站</a></li>
+            <li><a href="https://www.runoob.com" target="_blank">RUNOOB菜鸟教程</a></li>
+            <li><a href="https://segmentfault.com" target="_blank">SegmentFault思否</a></li>
         </ul>
 	</body>
 </html>

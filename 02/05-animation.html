@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>移动方块动画效果</title>
+    <style>
+        .mbox {
+            width: 100px;
+            height: 100px;
+            background-color: #5baa33;
+
+
+            /*声明调用mbx动画*/
+            animation: mbx 2s infinite;
+            position: relative;
+        }
+
+        /*定义一个动画（关键key帧frame）*/
+        @keyframes mbx {
+            from {
+                left: 0
+            }
+            to {
+                left: 100px
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="mbox"></div>
+<h3>play music</h3>
+<audio src="audio/对角巷乐队-晚安昨日.mp3" controls="controls"></audio>
+<video src="audio/ve.mp4" controls="controls" width="20%"></video>
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>拉伸盒子动画效果</title>
+    <style>
+        .tbx {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+
+            /*横向拉伸效果，执行时间1s*/
+            /*https://developer.mozilla.org/zh-CN/docs/Web/CSS/transition*/
+            transition: width 1s;
+        }
+
+        .tbx:hover {
+            width: 200px;
+        }
+
+    </style>
+</head>
+<body>
+<h3>拉伸盒子动画效果</h3>
+<h5>两个参数</h5>
+<div class="tbx"></div>
+</body>
+</html>
