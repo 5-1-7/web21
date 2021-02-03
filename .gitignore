@@ -3,8 +3,9 @@
 .gradle
 .DS_Store
 */.DS_Store
-# Default ignored files
 /shelf/
 /workspace.xml
-# Editor-based HTTP Client requests
 /httpRequests/
+.deploy_git/
+node_modules/
+public/
